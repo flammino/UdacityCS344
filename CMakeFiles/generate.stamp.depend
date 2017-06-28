@@ -1,0 +1,36 @@
+# CMake generation dependency list for this directory.
+C:/Users/Flammino/Source/Repos/cs344/CMakeLists.txt
+C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/CMakeFiles/3.9.0-rc5/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/CMakeFiles/3.9.0-rc5/CMakeCCompiler.cmake
+C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/CMakeFiles/3.9.0-rc5/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/CMakeFiles/3.9.0-rc5/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/Flammino/Downloads/opencv/build/OpenCVConfig-version.cmake
+C:/Users/Flammino/Downloads/opencv/build/OpenCVConfig.cmake
+C:/Users/Flammino/Downloads/opencv/build/x64/vc14/lib/OpenCVConfig.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/FindPackageMessage.cmake
+C:/Users/Flammino/Downloads/opencv/build/x64/vc14/lib/OpenCVModules.cmake
+C:/Users/Flammino/Downloads/opencv/build/x64/vc14/lib/OpenCVModules-debug.cmake
+C:/Users/Flammino/Downloads/opencv/build/x64/vc14/lib/OpenCVModules-release.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/FindCUDA/select_compute_arch.cmake

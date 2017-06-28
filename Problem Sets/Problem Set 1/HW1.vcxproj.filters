@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\reference_calc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\compare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\compare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\reference_calc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\student_func.cu" />
+    <CustomBuild Include="C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 1\CMakeFiles\HW1.dir\$(Configuration)\HW1_generated_student_func.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B5115B6A-E185-3B07-B118-499CA337EC66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D4D3D98D-7ADB-3E6A-A8D4-1136905EA3EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{5D942C7D-7EBE-348B-8A08-1EE356C65A98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

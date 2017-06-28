@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B9495D1E-5F10-359F-B981-5E6C8CAAF073}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\c64392b2db6e242808f9c063eb298347\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Flammino/Source/Repos/cs344 -BC:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/cs344.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/CMakeFiles/c64392b2db6e242808f9c063eb298347/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeCCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeCXXCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeRCCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeSystem.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 1\CMakeFiles\HW1.dir\HW1_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 2\CMakeFiles\HW2.dir\HW2_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\HW3.dir\HW3_generated_HW3.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\HW3.dir\HW3_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\HW4.dir\HW4_generated_HW4.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\HW4.dir\HW4_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\HW5.dir\HW5_generated_main.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\HW5.dir\HW5_generated_student.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\HW6.dir\HW6_generated_HW6.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\HW6.dir\HW6_generated_student_func.cu.obj.depend;C:\Users\Flammino\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\Flammino\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules.cmake;C:\Users\Flammino\Source\Repos\cs344\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 2\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 3\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 4\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 5\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 1\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 2\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Flammino/Source/Repos/cs344 -BC:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/cs344.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/CMakeFiles/c64392b2db6e242808f9c063eb298347/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeCCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeCXXCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeRCCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeSystem.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 1\CMakeFiles\HW1.dir\HW1_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 2\CMakeFiles\HW2.dir\HW2_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\HW3.dir\HW3_generated_HW3.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\HW3.dir\HW3_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\HW4.dir\HW4_generated_HW4.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\HW4.dir\HW4_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\HW5.dir\HW5_generated_main.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\HW5.dir\HW5_generated_student.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\HW6.dir\HW6_generated_HW6.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\HW6.dir\HW6_generated_student_func.cu.obj.depend;C:\Users\Flammino\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\Flammino\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules.cmake;C:\Users\Flammino\Source\Repos\cs344\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 2\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 3\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 4\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 5\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 1\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 2\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Flammino/Source/Repos/cs344 -BC:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/cs344.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/CMakeFiles/c64392b2db6e242808f9c063eb298347/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeCCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeCXXCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeRCCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeSystem.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 1\CMakeFiles\HW1.dir\HW1_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 2\CMakeFiles\HW2.dir\HW2_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\HW3.dir\HW3_generated_HW3.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\HW3.dir\HW3_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\HW4.dir\HW4_generated_HW4.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\HW4.dir\HW4_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\HW5.dir\HW5_generated_main.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\HW5.dir\HW5_generated_student.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\HW6.dir\HW6_generated_HW6.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\HW6.dir\HW6_generated_student_func.cu.obj.depend;C:\Users\Flammino\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\Flammino\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules.cmake;C:\Users\Flammino\Source\Repos\cs344\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 2\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 3\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 4\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 5\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 1\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 2\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Flammino/Source/Repos/cs344 -BC:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/cs344.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Flammino/Documents/college/PersonalProjects/UdacityCS344/CMakeFiles/c64392b2db6e242808f9c063eb298347/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeCCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeCXXCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeRCCompiler.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\3.9.0-rc5\CMakeSystem.cmake;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 1\CMakeFiles\HW1.dir\HW1_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 2\CMakeFiles\HW2.dir\HW2_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\HW3.dir\HW3_generated_HW3.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\HW3.dir\HW3_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\HW4.dir\HW4_generated_HW4.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\HW4.dir\HW4_generated_student_func.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\HW5.dir\HW5_generated_main.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\HW5.dir\HW5_generated_student.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\HW6.dir\HW6_generated_HW6.cu.obj.depend;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\HW6.dir\HW6_generated_student_func.cu.obj.depend;C:\Users\Flammino\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\Flammino\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Users\Flammino\Downloads\opencv\build\x64\vc14\lib\OpenCVModules.cmake;C:\Users\Flammino\Source\Repos\cs344\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 1\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 2\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 3\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 4\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 5\CMakeLists.txt;C:\Users\Flammino\Source\Repos\cs344\Problem Sets\Problem Set 6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 1\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 2\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 3\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 4\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 5\CMakeFiles\generate.stamp;C:\Users\Flammino\Documents\college\PersonalProjects\UdacityCS344\Problem Sets\Problem Set 6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
